@@ -156,7 +156,7 @@ $user_id = $_SESSION['user_id'];
             <a href="#" class="fab fa-twitter"></a>
             <a href="#" class="fab fa-instagram"></a>
          </div>
-         <h3>john deo</h3>
+         <h3>Yanisa</h3>
       </div>
 
       <div class="box">
@@ -166,7 +166,7 @@ $user_id = $_SESSION['user_id'];
             <a href="#" class="fab fa-twitter"></a>
             <a href="#" class="fab fa-instagram"></a>
          </div>
-         <h3>john deo</h3>
+         <h3>Chananan</h3>
       </div>
 
       <div class="box">
@@ -176,47 +176,12 @@ $user_id = $_SESSION['user_id'];
             <a href="#" class="fab fa-twitter"></a>
             <a href="#" class="fab fa-instagram"></a>
          </div>
-         <h3>john deo</h3>
-      </div>
-
-      <div class="box">
-         <img src="images/author-4.jpg" alt="">
-         <div class="share">
-            <a href="#" class="fab fa-facebook-f"></a>
-            <a href="#" class="fab fa-twitter"></a>
-            <a href="#" class="fab fa-instagram"></a>
-         </div>
-         <h3>john deo</h3>
-      </div>
-
-      <div class="box">
-         <img src="images/author-5.jpg" alt="">
-         <div class="share">
-            <a href="#" class="fab fa-facebook-f"></a>
-            <a href="#" class="fab fa-twitter"></a>
-            <a href="#" class="fab fa-instagram"></a>
-         </div>
-         <h3>john deo</h3>
-      </div>
-
-      <div class="box">
-         <img src="images/author-6.jpg" alt="">
-         <div class="share">
-            <a href="#" class="fab fa-facebook-f"></a>
-            <a href="#" class="fab fa-twitter"></a>
-            <a href="#" class="fab fa-instagram"></a>
-         </div>
-         <h3>john deo</h3>
+         <h3>Kanokwan</h3>
       </div>
 
    </div>
 
 </section>
-
-
-
-
-
 
 
 <?php include 'footer.php'; ?>

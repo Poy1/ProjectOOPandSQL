@@ -14,7 +14,7 @@ if (isset($_POST['add_to_cart'])) {
 
    $product_name = $_POST['product_name'];
    $product_price = $_POST['product_price'];
-   $product_information = $_POST['product_information']; /* เพิ่มเข้ามา */
+   $product_information = $_POST['product_information']; 
    $product_image = $_POST['product_image'];
    $product_quantity = $_POST['product_quantity'];
 
@@ -77,8 +77,8 @@ if (isset($_POST['add_to_cart'])) {
             </div>
             <div class="price">
                <?php echo $fetch_products['price']; ?>B/per day
-            </div> <!-- เพิ่มเข้ามา  -->
-            <!-- เพิ่มเข้ามา 74 -->
+            </div> 
+
             <div class="information">
                <?php echo $fetch_products['information']; ?>
             </div>
@@ -86,7 +86,6 @@ if (isset($_POST['add_to_cart'])) {
             <input type="hidden" name="product_name" value="<?php echo $fetch_products['name']; ?>">
             <input type="hidden" name="product_price" value="<?php echo $fetch_products['price']; ?>">
             <input type="hidden" name="product_image" value="<?php echo $fetch_products['image']; ?>">
-            <!-- เพิ่มเข้ามา 80 -->
             <input type="hidden" name="product_information" value="<?php echo $fetch_products['information']; ?>">
             <input type="submit" value="add to cart" name="add_to_cart" class="btn">
          </form>

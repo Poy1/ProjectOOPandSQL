@@ -198,12 +198,6 @@ section{
    color:var(--black);
 }
 
-.form-container from bbb{
-   position: absolute;
-   right: 500px;
-   text-transform: uppercase;
-}
-
 .form-container form .box{
    width: 100%;
    border-radius: .5rem;
@@ -223,6 +217,7 @@ section{
 
 .form-container form p a{
    color:var(--purple);
+   font-size: 1.8rem;
 }
 
 .form-container form p a:hover{
